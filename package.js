@@ -1,12 +1,12 @@
 Package.describe({
+  name: 'nudger:malihu-scrollbar',
   summary: "A wrapper for Malihu Custom Scrollbar. Highly customizable custom scrollbar jQuery plugin",
-  version: "3.0.6",
+  version: "3.0.9",
   git: "https://github.com/MaazAli/Meteor-Malihu-Custom-Scrollbar.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.0.1');
-
+  api.versionsFrom('METEOR@1.1.0.3');
   api.use('jquery');
 
   // JS
@@ -18,4 +18,3 @@ Package.onUse(function(api) {
   api.addFiles('jquery.mCustomScrollbar.css', 'client');
 
 });
-
